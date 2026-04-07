@@ -49,7 +49,7 @@ Cydonile，源自 Cydonia （榅桲，蔷薇科榅桲属灌木）和 pile （堆
 就是 2017 年底自建 Minecraft 服务器的又一个“新名字”的重新利用，但之后我不想再随便再更改名称了。
 
 
-NoobArchive WordPress 站点还会留着，当然 MingbaiCloud 的 [mb233.net](mb233.net) 域名也快过期了，不清楚 GZY_mingbai 之后会怎么处理。
+NoobArchive WordPress 站点还会留着，当然 MingbaiCloud 的 [mb233.net](https://mb233.net) 域名也快过期了，不清楚 GZY_mingbai 之后会怎么处理。
 
 无论如何，我很感激 GZY_mingbai 所提供的一切。
 
