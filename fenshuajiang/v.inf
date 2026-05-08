@@ -1,0 +1,16 @@
+[Mirror]
+
+[Media]
+Code = snda
+[Silent]
+Size = 1
+[Data]
+Version = 1.3.3.4.7
+URL = pkgroot:/
+
+[ServerList]
+URL = http://blog.mizukoud.icu/fenshuajiang/fsj_serverlist.txt
+[Stat]
+ActiveUrl = http://res.baocai.joyegame.com/statistics/realtime/php/saveActiveData.php
+[UpdateInfo]
+URL = http://blog.mizukoud.icu/fenshuajiang/updateinfo.txt
