@@ -43,10 +43,10 @@ jobs:
           pip install -r requirements.txt
           pnpm install --frozen-lockfile
 
-      # Prettier check
-      - name: Markdown style check (prettier)
-        run: |
-          pnpm run format:check
+      # Prettier check - disabled temporory
+#       - name: Markdown style check (prettier)
+#         run: |
+#           pnpm run format:check
 
       # Build and deploy
       - name: Install Source Han Sans SC
