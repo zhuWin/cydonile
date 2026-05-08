@@ -1,0 +1,5 @@
+# 粉刷匠大作战单机版
+
+WIP
+
+[点击链接加入群聊【粉刷匠大作战 | 安装包】：](https://qun.qq.com/universal-share/share?ac=1&authKey=aKrl6dWUhcWJdJVetfPCQClCZntfWXhPFoh%2BlsnCeUj8QwInPqO6uzEmlBYbTPpV&busi_data=eyJncm91cENvZGUiOiIxMzgyNTE3MzYiLCJ0b2tlbiI6IlBWQzN5bmMwWWczdSthMm9pWjV0WmdIUW11aVRnZWZ1N0FhSG15b25IZ2xFTUJzSjErclN6WjlvRXgzTUdKMmoiLCJ1aW4iOiIyNzc2ODI0Njk3In0%3D&data=ZXrRMzRpVfrrtOlnewZJqbxlXK3f2QMQb49VhgdOedsfrbSHcoDbq0Or3Mi5ZWWS5qW0IZGdhQYxq440cpiRtw&svctype=4&tempid=h5_group_info) - 这也是我无法抛弃 QQ 的理由之一：你总不能指望那些只看抖音小红书的用户去搜冷门博客或访问 Telegram/Discord 频道吧，况且 QQ 群的空间不用白不用。

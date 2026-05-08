@@ -1,0 +1,15 @@
+# pnpm
+node_modules
+
+# Python
+__pycache__/
+
+# Build
+venv
+site
+
+# Others
+.obsidian/
+Makefile
+mkdocs.dev.yml
+.DS_Store

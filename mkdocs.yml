@@ -1,0 +1,227 @@
+nav: 
+  - 主页:
+    - index.md
+    - about.md
+    - about-me.md
+  - Studies:
+    - studies/index.md
+    - 大学课程学习:
+      - studies/college-study/index.md
+      - 计科类:
+        - studies/college-study/cs/index.md
+        - 人工智能: 
+          - studies/college-study/cs/ai/index.md
+        - 数据结构:
+          - studies/college-study/cs/data-structure/index.md
+        - 高级语言程序设计 - C:
+          - studies/college-study/cs/c/index.md
+      - 英语:
+        - studies/college-study/english/index.md
+        - studies/college-study/english/related-material.md
+      - 数理:
+        - studies/college-study/math-physics/index.md
+#        - 高等数学(安大蓝本): 
+#        - 线性代数: 
+#        - 大学物理: 
+    - 英语:
+      - studies/english/index.md
+  - Research:
+    - research/index.md
+    - 媒体处理:
+      - research/media-process/index.md
+    - 系统软件:
+      - research/os/index.md
+      - 微软:
+        - research/os/ms/index.md
+        - research/os/ms/NT内核控制台字体研究.md
+        - research/os/ms/rethink-windows-bundled-games.md
+      - Unix 世界:
+        - research/os/unix/index.md
+  - Project:
+    - project/index.md
+    - 粉刷匠大作战单机版:
+      - project/bopoffline/index.md
+    - 无用系列:
+      - project/winyong/index.md
+    - PROJECT ZWPACK 杼榅材质系列:
+      - project/zwpack-series/index.md
+  - Life:
+    - life/index.md
+    - 啊，我吗？:
+      - life/myself/index.md
+      - life/myself/my-ptsd.md
+  - Games:
+    - games/index.md
+    - Arknights 明日方舟:
+      - games/ak/index.md
+      - games/ak/april-fools-elements.md
+    - Minecraft:
+      - games/minecraft/index.md
+    - 音乐游戏:
+      - games/mug/index.md
+    - Rhythm Painters 粉刷匠大作战:
+      - games/rp/index.md
+    - 更多？:
+      - games/misc/index.md
+  - Archive:
+    - archive/index.md
+  - Misc:
+    - misc/index.md
+    - 站点本身: 
+      - Markdown 示例:
+        - misc/site-itself/md-sample/cheatsheet.md
+        - misc/site-itself/md-sample/test1.md
+        - misc/site-itself/md-sample/test2.md
+
+
+
+
+
+
+# 
+# !!!section: site settings 
+# 
+
+site_name: Cydonile 榅枋茶馆
+site_url: https://blog.mizukoud.icu
+site_author: Mizukoud 杼榅
+site_description: 后背洪枋巨堰,深渠高堤者也。--《水经注》
+copyright: '(C) zhuWin | 本站内容在 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 条款下提供，附加条款亦可能应用，请君留意。'
+
+repo_url: https://github.com/zhuWin/cydonile
+repo_name: zhuWin/cydonile
+edit_uri: edit/main/docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter 
+      link: https://twitter.com/@zhuwin666
+    - icon: fontawesome/brands/github 
+      link: https://github.com/zhuWin 
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - assets/js/katex.js
+
+markdown_extensions:
+  - admonition # !!!型劝要，不可收起详情，可隐藏标题
+  - attr_list # 属性列表，eg. {: #someid .someclass somekey='some value' }
+  - def_list # 冒号定义列表，单词释义可以用
+  - footnotes # 文本脚注
+  - toc: # 正文内渲染目录
+      permalink: true
+      toc_depth: 4
+  - meta
+  - md_in_html
+  - markdown.extensions.def_list
+  - sane_lists
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji: # Emoji :short_name: support
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+plugins:
+  - statistics:
+      page_check_metadata: comment
+  - glightbox:
+      width: 80%
+      skip_classes:
+        - off-glb
+  - search
+#   - git-revision-date-localized:
+#       type: datetime
+#       timezone: Asia/Shanghai
+#       locale: zh
+#       enable_creation_date: true
+  - social:
+        enabled: !ENV [CI, false]
+  - tags
+#    - blog
+#    - rss:
+#      match_path: blogs/posts/.* 
+#       date_from_meta:
+#         as_creation: date
+#       categories:
+#         - categories
+#         - tags 
+
+
+
+# 
+# !!!section: theme section
+# 
+
+theme:
+  name: material
+  # custom_dir: overrides
+
+  language: zh
+  favicon: assets/img/favicon.ico
+  logo: assets/img/monologo.svg
+  font: false
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.share
+    - search.highlight
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+
+

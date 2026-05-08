@@ -1,0 +1,15 @@
+{
+    "name": "cydonile",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhuWin/cydonile.git"
+    },
+    "scripts": {
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
+}

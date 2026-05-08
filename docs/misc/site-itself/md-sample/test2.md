@@ -1,0 +1,305 @@
+---
+comment: true
+---
+# Sample #2
+
+
+!!! abstract
+
+    摘自[猎人笔记](https://note.inuebisu.cn/misc/mkdocs.html)的 MkDocs Cheatsheet。站点测试用，此处也留存一份以供参考。
+
+## Code Block
+
+```cpp title="hello.cpp" hl_lines="1 3-6" linenums="42"
+#include <iostream>
+
+int main(void) {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```
+
+````md
+```cpp title="hello.cpp" hl_lines="1 3-6" linenums="2"
+#include <iostream>
+
+int main(void) {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```
+````
+
+## Pymdownx
+
+### Tabbed 选项卡
+
+=== "C++"
+
+    ```cpp
+    #include <iostream>
+
+    int main(void) {
+        std::cout << "Hello World!" << std::endl;
+        return 0;
+    }
+    ```
+
+=== "Python"
+
+    ```py
+    print("Hello World!")
+    ```
+
+Source Code:
+
+````md
+
+=== "C++"
+
+    ```cpp
+    #include <iostream>
+
+    int main(void) {
+        std::cout << "Hello World!" << std::endl;
+        return 0;
+    }
+    ```
+
+=== "Python"
+
+    ```py
+    print("Hello World!")
+    ```
+
+````
+
+### Tasklist 任务清单
+
+- [x] Alice
+- [x] Bob
+- [ ] Charlie
+- [ ] Eve
+
+```md
+- [x] Alice
+- [x] Bob
+- [ ] Charlie
+- [ ] Eve
+```
+
+## Admonitions
+
+### 通常的用法
+
+!!! note
+
+    这里是一些提示。
+
+```md
+!!! note
+
+    这里是一些提示。
+```
+
+??? note
+
+    这是一个可以折叠的提示。
+
+```md
+??? note
+
+    这是一个可以折叠的提示。
+```
+
+???+ note
+
+    这个可折叠提示默认展开。
+
+```md
+???+ note
+
+    这个可折叠提示默认展开。
+```
+
+### 自定义标题
+
+!!! note "标题"
+
+    这里是一些记录。
+
+```md
+!!! note "标题"
+
+    这里是一些记录。
+```
+
+### 内联的用法
+
+!!! note inline
+
+    这是一个靠左侧的内联块。
+
+```md
+!!! note inline
+
+    这是一个靠左侧的内联块。
+```
+
+而且
+
+!!! note inline end
+
+    这是一个靠右侧的内联块。
+
+```md
+!!! note inline end
+
+    这是一个靠右侧的内联块。
+```
+
+### 嵌套的用法
+
+!!! note "外部标题"
+
+    这是外部内容。
+
+    !!! note "这是一个嵌套标题"
+
+        这是一个嵌套内容。
+
+```md
+!!! note "外部标题"
+
+    这是外部内容。
+
+    !!! note "这是一个嵌套标题"
+
+        这是一个嵌套内容。
+```
+
+### 不同的类型
+
+!!! note
+
+!!! tip
+
+!!! info
+
+!!! abstract
+
+!!! success
+
+!!! question
+
+!!! warning
+
+!!! failure
+
+!!! danger
+
+!!! bug
+
+!!! example
+
+!!! quote
+
+```md
+!!! note
+
+!!! tip
+
+!!! info
+
+!!! abstract
+
+!!! success
+
+!!! question
+
+!!! warning
+
+!!! failure
+
+!!! danger
+
+!!! bug
+
+!!! example
+
+!!! quote
+```
+
+## KaTeX
+
+### 数学公式
+
+假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma (n)} = C.
+$$
+
+此外，也存在另一种排列 $\sigma' : \, \, n \mapsto \sigma' (n)$ ，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma' (n)} = \infty.
+$$
+
+类似地，也可以有办法使它的部分和趋于 $-\infty$ ，或没有任何极限。
+
+反之，如果级数是绝对收敛的，那么无论怎样重排，它仍然会收敛到同一个值，也就是级数的和。
+
+```md
+假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma (n)} = C.
+$$
+
+此外，也存在另一种排列 $\sigma' : \, \, n \mapsto \sigma' (n)$ ，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma' (n)} = \infty.
+$$
+
+类似地，也可以有办法使它的部分和趋于 $-\infty$ ，或没有任何极限。
+
+反之，如果级数是绝对收敛的，那么无论怎样重排，它仍然会收敛到同一个值，也就是级数的和。
+```
+
+### 伪代码
+
+$$
+\begin{array}{ll}
+1 &  \textbf{Input. } \text{The edges of the graph } e , \text{ where each element in } e \text{ is } (u, v, w) \\
+  &  \text{ denoting that there is an edge between } u \text{ and } v \text{ weighted } w . \\
+2 &  \textbf{Output. } \text{The edges of the MST of the input graph}.\\
+3 &  \textbf{Method. } \\
+4 &  result \gets \varnothing \\
+5 &  \text{sort } e \text{ into nondecreasing order by weight } w \\
+6 &  \textbf{for} \text{ each } (u, v, w) \text{ in the sorted } e \\
+7 &  \qquad \textbf{if } u \text{ and } v \text{ are not connected in the union-find set } \\
+8 &  \qquad\qquad \text{connect } u \text{ and } v \text{ in the union-find set} \\
+9 &  \qquad\qquad  result \gets result\;\bigcup\ \{(u, v, w)\} \\
+10 &  \textbf{return }  result
+\end{array}
+$$
+
+```
+$$
+\begin{array}{ll}
+1 &  \textbf{Input. } \text{The edges of the graph } e , \text{ where each element in } e \text{ is } (u, v, w) \\
+  &  \text{ denoting that there is an edge between } u \text{ and } v \text{ weighted } w . \\
+2 &  \textbf{Output. } \text{The edges of the MST of the input graph}.\\
+3 &  \textbf{Method. } \\
+4 &  result \gets \varnothing \\
+5 &  \text{sort } e \text{ into nondecreasing order by weight } w \\
+6 &  \textbf{for} \text{ each } (u, v, w) \text{ in the sorted } e \\
+7 &  \qquad \textbf{if } u \text{ and } v \text{ are not connected in the union-find set } \\
+8 &  \qquad\qquad \text{connect } u \text{ and } v \text{ in the union-find set} \\
+9 &  \qquad\qquad  result \gets result\;\bigcup\ \{(u, v, w)\} \\
+10 &  \textbf{return }  result
+\end{array}
+$$
+```
