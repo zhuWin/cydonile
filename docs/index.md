@@ -3,6 +3,7 @@ hide:
     - footer
 statistics: true
 comment: true
+comments: true
 ---
 # 欢迎
 
@@ -26,6 +27,7 @@ comment: true
 ???+ 哎舞萌痴 "站点变动"
     记录本站本身的变动。
 
+    - 20260510 增加博客页、RSS 与评论功能
     - 20260502 榅枋：确定建站方案，迁移至 MkDocs。  
     - 20251020 榅枋：站点筹备决定
     - 20250923 mizukoud.icu：新域名，[NoobArchive WordPress](https://zw.mb233.net) 未来方向调整
@@ -41,8 +43,8 @@ comment: true
     - [NoobArchive](https://zw.mb233.net) - 又一个默默无闻的档案馆 / 存档着早已消散的事物 / 粉刷玩家娱乐赛组织成员
 
 ???+ info "统计！"
-    <center>页面数：{{pages}} </center>
-    
-    <center>总字数：{{words}} </center>
+    页面数：{{pages}} 
+
+    总字数：{{words}}; 代码数：{{codes}}; 图片数:{{images}} 
 
 

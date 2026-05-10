@@ -6,6 +6,8 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
 mkdocs-material
 mkdocs-material-extensions
+mkdocs-minify-plugin
 mkdocs-statistics-plugin
 mkdocs-pymdownx-material-extras
+mkdocs-rss-plugin
 mkdocs-simple-hooks

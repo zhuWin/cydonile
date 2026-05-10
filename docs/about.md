@@ -16,7 +16,7 @@ comment: true
 > ”后背洪枋巨堰,深渠高堤者也。“ --《水经注》
 
 
-## Cydonile 榅枋 
+## Cydonile 榅枋茶馆 
 
 榅，读音 wēn 和 yùn 均可。读作 wēn 时包含“根”的含义，也可指榅桲树的果实，黄色，有香气，味甘酸，可以吃，又供药用；读作 yùn 时其本义为草木繁盛。
 
@@ -24,9 +24,28 @@ comment: true
 
 Cydonile，源自 Cydonia （榅桲，蔷薇科榅桲属灌木）和 pile （堆，大笔钱财，电池组，动词可指堆叠累计，用桩加固支撑）。
 
+## 友链参考
+
+站点名称: **Cydonile 榅枋茶馆**[^1]
+
+站点简介: 后背洪枋巨堰,深渠高堤者也。--《水经注》
+
+站点链接: [https://blog.mizukoud.icu](https://blog.mizukoud.icu)
+
+站点图标 (SVG 白色)： [/assets/img/monologo.svg](/assets/img/monologo.svg)
+
+站点图标 (SVG 黑色)： [/assets/img/monologo-black.svg](/assets/img/monologo-black.svg)
+
+站点图标 (PNG)： [/assets/img/logo-1x1.png](/assets/img/logo-1x1.png)
+
+站点图标 (多分辨率 ICO，你认真的？！)： [/favicon.ico](/favicon.ico)
+
+站长头像 (Gravatar)： [WeAvatar 镜像服务](https://weavatar.com/avatar/146cb8c9a0e8deb40912a90dc85cea72e83687a59696a4207dc444e412a9290a?s=256)
+
+
 ## 许可信息
 
-(C) zhuWin | 本站内容在 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 条款下提供，附加条款亦可能应用，请君留意。
+(C) zhuWin | 本站内容在 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>[^2] 条款下提供，附加条款亦可能应用，请君留意。
 
 文章内若提到商标类名词，请注意相应商标归属于相应单位。
 
@@ -57,6 +76,10 @@ Cydonile，源自 Cydonia （榅桲，蔷薇科榅桲属灌木）和 pile （堆
 NoobArchive WordPress 站点还会留着，当然 MingbaiCloud 的 [mb233.net](https://mb233.net) 域名也快过期了，不清楚 GZY_mingbai 之后会怎么处理。
 
 无论如何，我很感激 GZY_mingbai 所提供的一切。
+
+[^1]: 可以选择仅保留中文或英文，或者二者并列。
+[^2]: 是的，不是 BY-**SA**，鄙人并不强求 Sharealike，只需保证有标记署名来源就够了。
+
 
 
 

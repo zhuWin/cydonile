@@ -3,6 +3,8 @@ nav:
     - index.md
     - about.md
     - about-me.md
+  - Blogs:
+    - blog/index.md
   - Studies:
     - studies/index.md
     - 大学课程学习:
@@ -98,6 +100,8 @@ extra:
       link: https://twitter.com/@zhuwin666
     - icon: fontawesome/brands/github 
       link: https://github.com/zhuWin 
+    - icon: material/rss 
+      link: /feed_rss_created.xml
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
@@ -141,29 +145,41 @@ markdown_extensions:
       generic: true
 
 plugins:
-  - statistics:
+  - statistics: # 字数统计
       page_check_metadata: comment
-  - glightbox:
+  - glightbox: # 媒体缩略图实现
       width: 80%
       skip_classes:
         - off-glb
+  - meta # 目录元数据，应用元数据到目录内全部文章
+  - minify: # 字面意思
+      minify_html: true
   - search
-#   - git-revision-date-localized:
-#       type: datetime
-#       timezone: Asia/Shanghai
-#       locale: zh
-#       enable_creation_date: true
+  - git-revision-date-localized:
+#      enabled: !ENV [CI, false] # 仅在 CI 环境启用该插件，本地预览时关闭
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+#  - git-committers:
+#      enabled: !ENV [CI, false] # 仅在 CI 环境启用该插件，本地预览时关闭
+#      repository: zhuWin/cydonile
+#      branch: main
   - social:
-        enabled: !ENV [CI, false]
+      enabled: !ENV [CI, false] # 仅在 CI 环境启用该插件，本地预览时关闭
   - tags
-#    - blog
-#    - rss:
-#      match_path: blogs/posts/.* 
-#       date_from_meta:
-#         as_creation: date
-#       categories:
-#         - categories
-#         - tags 
+  - blog:
+      post_url_date_format: yyyy/MM
+      post_readtime: false
+      
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+          as_creation: date
+      categories:
+          - categories
+          - tags 
+      image: assets/img/logo-1x1.png
 
 
 
@@ -173,7 +189,7 @@ plugins:
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
 
   language: zh
   favicon: assets/img/favicon.ico
