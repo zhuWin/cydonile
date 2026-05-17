@@ -38,9 +38,9 @@ comments: true
 ???+ success "朋友们！"
     （欢迎友链！）
 
-    - [Suntrise](https://suntrise.github.io/) - 也算老朋友，欢迎去阅读 ta 在知乎/少数派上的文章！
-    - [犬戎](https://inuebisu.cn/) - 虽然断联了诸多年，但也是 2018 年粉刷匠时期的老朋友了，可以去看看ta的猎人笔记！
-    - [NoobArchive](https://zw.mb233.net) - 又一个默默无闻的档案馆 / 存档着早已消散的事物 / 粉刷玩家娱乐赛组织成员
+    - [Suntrise](https://suntrise.github.io/) - 欢迎去阅读 ta 在知乎/少数派上的文章！
+    - [犬戎](https://inuebisu.cn/) - 断联了诸多年，但也是 2018 年粉刷匠时期的老朋友了，可以去看看ta的猎人笔记！
+    - [NoobArchive](https://213noob.mysxl.cn) - 又一个默默无闻的档案馆 / 存档着早已消散的事物 / 粉刷玩家娱乐赛组织成员
 
 ???+ info "统计！"
     页面数：{{pages}} 

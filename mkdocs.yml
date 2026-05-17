@@ -3,9 +3,9 @@ nav:
     - index.md
     - about.md
     - about-me.md
-  - Blogs:
+  - BLOGS:
     - blog/index.md
-  - Studies:
+  - STUDIES:
     - studies/index.md
     - 大学课程学习:
       - studies/college-study/index.md
@@ -27,7 +27,7 @@ nav:
 #        - 大学物理: 
     - 英语:
       - studies/english/index.md
-  - Research:
+  - RESEARCH:
     - research/index.md
     - 媒体处理:
       - research/media-process/index.md
@@ -39,7 +39,7 @@ nav:
         - research/os/ms/rethink-windows-bundled-games.md
       - Unix 世界:
         - research/os/unix/index.md
-  - Project:
+  - PROJECT:
     - project/index.md
     - 粉刷匠大作战单机版:
       - project/bopoffline/index.md
@@ -47,12 +47,12 @@ nav:
       - project/winyong/index.md
     - PROJECT ZWPACK 杼榅材质系列:
       - project/zwpack-series/index.md
-  - Life:
+  - LIFE:
     - life/index.md
     - 啊，我吗？:
       - life/myself/index.md
       - life/myself/my-ptsd.md
-  - Games:
+  - GAMES: # 260517：需要把 游戏栏目收进 research 栏目吗
     - games/index.md
     - Arknights 明日方舟:
       - games/ak/index.md
@@ -65,9 +65,9 @@ nav:
       - games/rp/index.md
     - 更多？:
       - games/misc/index.md
-  - Archive:
+  - ARCHIVE:
     - archive/index.md
-  - Misc:
+  - MISC:
     - misc/index.md
     - 站点本身: 
       - Markdown 示例:
@@ -88,7 +88,7 @@ site_name: Cydonile 榅枋茶馆
 site_url: https://blog.mizukoud.icu
 site_author: Mizukoud 杼榅
 site_description: 后背洪枋巨堰,深渠高堤者也。--《水经注》
-copyright: '(C) zhuWin | 本站内容在 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 条款下提供，附加条款亦可能应用，请君留意。'
+copyright: '(C) zhuWin | 除非另行说明，本站内容在 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 条款下提供，请君留意。'
 
 repo_url: https://github.com/zhuWin/cydonile
 repo_name: zhuWin/cydonile
@@ -220,7 +220,7 @@ theme:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: 太黑了辣！
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -228,7 +228,7 @@ theme:
       primary: white
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 瞎到你了嘛？
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -236,7 +236,7 @@ theme:
       primary: black
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: 跟着系统来！
 
 
 

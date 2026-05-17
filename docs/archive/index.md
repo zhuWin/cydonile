@@ -14,4 +14,4 @@
 
 2018 年 8 月，2019 年 5 月。
 
-你是否在寻找：[NoobArchive](https://zw.mb233.net)
+你是否在寻找：[NoobArchive](https://213noob.mysxl.cn)
