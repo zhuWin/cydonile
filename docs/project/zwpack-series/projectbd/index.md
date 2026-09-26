@@ -1,10 +1,16 @@
-# 杼榅材质 - 戊边漫划 PROJECT BD
+---
+statistics: true
+comments: true
+comment: true
+---
+# 戊边漫划 PROJECT BD
 
 https://mizukoud.icu/zwp
 
->
-> 预发布文档，会有许多遗漏，请给出反馈。260926
-> 
+!!! danger "警告"
+
+    预发布文档，会有许多遗漏，请给出反馈。260926
+
 ## 零、读前须知 - redistribute a remixpack
 
 >As a user of PureBDcraft, you know that you ARE authorised to:
@@ -199,7 +205,7 @@ Lite 版本，1.8 支持 only。挑战体积极限，曾取得了 压缩到 9MiB
 
 ![pasted-20260820214123](/assets/docres/project/zwpack-series/projectbd/pasted-20260820214123.webp)
 
-再者，[Endfield Update Screen](https://modrinth.com/resourcepack/endfield) 原是 戊边漫划 的主菜单背景 reflesh 计划中的一部分，但实际独立拿出来更合适。
+再者，[Endfield Update Screen](https://modrinth.com/resourcepack/endfield) 原是 戊边漫划 的主菜单背景 refresh 计划中的一部分，但实际独立拿出来更合适。
 
 ### 缺陷二 - 许可证问题
 要分发 戊边漫划 PROJECT BD，这将是永远绕不过的坎。
@@ -246,6 +252,7 @@ Lite 版本，1.8 支持 only。挑战体积极限，曾取得了 压缩到 9MiB
 - [MC-268171](https://bugs.mojang.com/browse/MC/issues/MC-268171) - Some GUI textures can no longer be transparent in Minecraft - 24w05a+ - 24w12a
 
 以下修复于 1.21.2
+
 - [MC-165182](https://bugs.mojang.com/browse/MC/issues/MC-165182) - Inventory/GUI textures no longer handle translucent pixels correctly - 1.15+ - 24w33a
 - [MC-174732](https://bugs.mojang.com/browse/MC/issues/MC-174732) - Semi-transparent status effect textures do not render correctly in the inventory or beacon UI - 1.16+ - 24w33a
 - [MC-257318](https://bugs.mojang.com/browse/MC/issues/MC-257318) - Non-transparent toasts and some buttons that should be transparent in custom Resource Pack - 19w41a, 1.19.2, 22w44a+ - 24w33a
@@ -357,6 +364,7 @@ Minecraft 允许资源包更改方块/物品等的模型，进一步扩大自定
  - Screenshot viewer
 
 内置 Pslo4MC Basic 额外提供支持的 模组列表
+
  - `3dskinlayers`
  - `advancementinfo`
  - `animatica`
@@ -479,7 +487,7 @@ Minecraft 读取到未知的 字体提供器 会直接罢工整个字体配置�
 发布于 2023 年 1 月，视频稿件本体已经过时，但基本可以作为参考。请查阅其简介。
 
 另外，Intel 核显平台需要注意 MC-180529 相关的崩溃问题。
-## 历史与琐事
+## 六、历史与琐事
 
 ### 过早开始的代价
 
@@ -595,7 +603,7 @@ keep it simple, stupid.
 毕竟，您不可能一直都有精力维护这个烂摊子。 Hypixel 国服都他喵停服 6 年多了你材质居然还活着，也是个神人了。
 
 这就是坨没人看得上的玩具。
-## 未来发展
+## 七、未来发展
 
 PROJECT BD 仍有诸多需要达成的待办项目与目标。
 
@@ -616,7 +624,7 @@ PROJECT BD 仍有诸多需要达成的待办项目与目标。
 
 ### KnightsUI - V2 Refresh
 2021 年 6 月 v2.0 以来的现有的 UI 控件在某些细节上不是很好，呈现给玩家可能仍然很糊，当然这可能是有生之年了。
-## 补充内容
+## 八、补充内容
 
 我在过去混淆了 整个 ZWPACK 系列的名称，现在需要重新审定名称的用途。
 

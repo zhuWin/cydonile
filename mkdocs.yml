@@ -104,6 +104,10 @@ repo_url: https://github.com/zhuWin/cydonile
 repo_name: zhuWin/cydonile
 edit_uri: edit/main/docs
 
+validation:
+  links:
+    absolute_links: ignore
+
 extra:
   social:
     - icon: fontawesome/brands/x-twitter 

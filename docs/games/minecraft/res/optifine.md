@@ -10,21 +10,29 @@
 
 这个选项存在的意义是 1.4.7 之前的 Minecraft 版本的确不会加载纹理包里的字体纹理。
 ![pasted-20260802103443](/assets/docres/games/minecraft/res/optifine/pasted-20260802103443.webp)
+
 OptiFine 加入了这个选项使得不必手动改动 minecraft.jar。
+
 1.5 开始 Minecraft 会使用纹理包里的字体了，但字体间距没有调整或调整的较为诡异，OptiFine 自定义字体选项可以用来调整字体渲染。
 
 1.6 使用了新的资源包系统，与此同时也可以使用资源包里的字体文件了。
+
 但这个选项仍然有用。
-如果您的资源包在`/assets/minecraft/mcpatcher/font` （1.13 开始改为 `assets/minecraft/optifine/font`）里另外存放了一份字体纹理，
-这个选项允许您切换使用的字体的位置来“切换字体”。
-杼榅材质自 2020 年 v1.4 开始利用该功能。
+
+如果您的资源包在`/assets/minecraft/mcpatcher/font` （1.13 开始改为 `assets/minecraft/optifine/font`）里另外存放了一份字体纹理，这个选项允许您切换使用的字体的位置来“切换字体”。
+
+杼榅材质戊边漫划 自 2020 年 v1.4 开始利用该功能。
 
 在 1.6.x 之后、1.12.2 之前的 OptiFine 确实会继续试图修复使用第三方字体包时原版怪异的字体渲染，就像 1.5.2 之前做的那样，但无需开启选项，始终应用。
+
 部分字体的调整差别可能不大。
+
 但 1.13 之后失去了这一功能，装与不装二者基本没有区别了。
 
 1.13.2 OF G5 该选项仍然具有功能，但 1.14 开始这个选项的用处仍在进一步研究，至今 （26.1.2）该选项仍然保留，但笔者在所有测试用例都无法实际使用。
+
 可能确实没有任何作用了，但从 1.14 到 26.1.2 为什么这个选项仍然存在呢？
+
 高版本 Badlion Client 中该选项已经改为强制禁用并给出弃用警告了。
 ![pasted-20260802100348](/assets/docres/games/minecraft/res/optifine/pasted-20260802100348.webp)
 ![minecraft-1_w1](/assets/docres/games/minecraft/res/optifine/minecraft-1_w1.webp)

@@ -15,7 +15,7 @@ Writing in Simplified Chinese.
 
 Feel free sending me issues.
 
-# Special thanks
+## Special thanks
 
 - [inuEbisu/HuntersNotes](https://note.inuebisu.cn/)
 - [咸鱼暄的代码空间！](https://xuan-insr.github.io/)
