@@ -47,6 +47,9 @@ nav:
       - project/winyong/index.md
     - PROJECT ZWPACK 杼榅材质系列:
       - project/zwpack-series/index.md
+      - PROJECT BD 戊边漫划:
+        - project/zwpack-series/projectbd/index.md
+        - 更新日志: project/zwpack-series/projectbd/changelog.md
   - LIFE:
     - life/index.md
     - 啊，我吗？:
@@ -59,6 +62,13 @@ nav:
       - games/ak/april-fools-elements.md
     - Minecraft:
       - games/minecraft/index.md
+      - 资源相关:
+        - OptiFine: games/minecraft/res/optifine.md
+        - 字体:
+          - Modern UI 默认字体行为: games/minecraft/res/font/modernui-font-behavior.md
+      - 模组行为:
+        - 网易“我的世界中国版”:
+          - 实例版本: games/minecraft/modbehavior/netease/instances.md
     - 音乐游戏:
       - games/mug/index.md
     - Rhythm Painters 粉刷匠大作战:

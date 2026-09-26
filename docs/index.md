@@ -8,8 +8,8 @@ comments: true
 # 欢迎
 
 !!! danger ""
-    <center> ⭐ [260201: Pslo4MC α#8已经发布！](https://modrinth.com/resourcepack/pslp4mc/changelog) ⭐ </center>
-    <center> ⭐ [杼榅材质 CALMiRA ARBOR Pre#3 已经发布！](https://www.bilibili.com/read/cv43862941) ⭐ </center>
+    <center> ⭐ [260201: Pslo4MC α#9已经发布！](https://modrinth.com/resourcepack/pslp4mc/changelog) ⭐ </center>
+    <center> ⭐ [戊边漫划 Cydonia "Calmira Arbor" Pre#4 已经发布！](https://www.bilibili.com/opus/1243649961486188560) ⭐ </center>
 
 ![welcome](assets/docres/about/welcome-260507.webp)
 
@@ -19,10 +19,10 @@ comments: true
 ???+ tip "近期更新 - 时间戳为 YYYYMMDD 顺序"
     项目与文章的发布与更新。包括自身对外平台的重大事件。
 
-    - 20260405 全新项目：[**Chihaya Anon's Laugh**](https://modrinth.com/resourcepack/anon) - 一个简单的末地闪光替换示例
+    - 20260902 项目更新：[**杼榅材质戊边漫划**](https://www.bilibili.com/opus/1243649961486188560) - CALMiRA Arbor Pre#4 MC 1.21.11 & 26.3 支持
+    - 20260813 项目更新：[**Pslo4MC 伪本地化语言包**](https://modrinth.com/resourcepack/pslp4mc/changelog) - Alpha #9 CALMiRA PLUS
+    - 20260715 全新项目：[**mqgamer.com 域名**](https://fsj.mqgamer.com) - 粉刷匠大作战曾经使用的网络域名
     - 20260404 项目更新：[**Endfield Update Screen**](https://modrinth.com/resourcepack/endfield/changelog) - 1.1.1 - Full music & AF 2026 Support
-    - 20260201 项目更新：[**Pslo4MC 伪本地化语言包**](https://modrinth.com/resourcepack/pslp4mc/changelog) - Alpha #8 CALMiRA PLUS
-    - 20251126 项目更新： [**杼榅材质PROJECTBD**](https://www.bilibili.com/read/cv43862941/?opus_fallback=1) - CALMiRA Arbor Pre#3 使用 Minecraft JE 1.21.9 以上的版本请尽快更新
 
 ???+ 哎舞萌痴 "站点变动"
     记录本站本身的变动。
