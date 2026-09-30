@@ -57,12 +57,12 @@ nav:
       - life/myself/my-ptsd.md
   - GAMES: # 260517：需要把 游戏栏目收进 research 栏目吗
     - games/index.md
-    - Arknights 明日方舟:
+    - 明日方舟:
       - games/ak/index.md
       - games/ak/april-fools-elements.md
     - Minecraft:
       - games/minecraft/index.md
-      - 资源相关:
+      - 资源包制作与调整:
         - OptiFine: games/minecraft/res/optifine.md
         - 字体:
           - Modern UI 默认字体行为: games/minecraft/res/font/modernui-font-behavior.md
@@ -71,8 +71,11 @@ nav:
           - 实例版本: games/minecraft/modbehavior/netease/instances.md
     - 音乐游戏:
       - games/mug/index.md
-    - Rhythm Painters 粉刷匠大作战:
+    - 粉刷匠大作战:
       - games/rp/index.md
+      - 技术概览: games/rp/technical-overview.md
+      - 尚未实现的遗憾: games/rp/not-implemented.md
+      - 停运之后的登录: games/rp/relogin-after-end.md
     - 更多？:
       - games/misc/index.md
   - ARCHIVE:

@@ -8,7 +8,7 @@ comments: true
 # 欢迎
 
 !!! danger ""
-    <center> ⭐ [260201: Pslo4MC α#9已经发布！](https://modrinth.com/resourcepack/pslp4mc/changelog) ⭐ </center>
+    <center> ⭐ [260813: Pslo4MC α#9已经发布！](https://modrinth.com/resourcepack/pslp4mc/changelog) ⭐ </center>
     <center> ⭐ [戊边漫划 Cydonia "Calmira Arbor" Pre#4 已经发布！](https://www.bilibili.com/opus/1243649961486188560) ⭐ </center>
 
 ![welcome](assets/docres/about/welcome-260507.webp)
@@ -27,6 +27,7 @@ comments: true
 ???+ 哎舞萌痴 "站点变动"
     记录本站本身的变动。
 
+    - 20260930 粉刷匠及 Minecraft 相关研究 & 杼榅材质相关文章同步 
     - 20260510 增加博客页、RSS 与评论功能
     - 20260502 榅枋：确定建站方案，迁移至 MkDocs。  
     - 20251020 榅枋：站点筹备决定
@@ -40,7 +41,8 @@ comments: true
 
     - [Suntrise](https://suntrise.github.io/) - 欢迎去阅读 ta 在知乎/少数派上的文章！
     - [犬戎](https://inuebisu.cn/) - 断联了诸多年，但也是 2018 年粉刷匠时期的老朋友了，可以去看看ta的猎人笔记！
-    - [NoobArchive](https://213noob.mysxl.cn) - 又一个默默无闻的档案馆 / 存档着早已消散的事物 / 粉刷玩家娱乐赛组织成员
+    - [NoobArchive](https://mqgamer.com) - 又一个默默无闻的档案馆 / 存档着早已消散的事物 / 粉刷玩家娱乐赛组织成员
+    - [What_Damon](https://damon233.js.org/) - 友
 
 ???+ info "统计！"
     页面数：{{pages}} 
