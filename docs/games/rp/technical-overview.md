@@ -621,4 +621,4 @@ CC BY 4.0
 
 https://bbs.gameres.com/thread_249070_1_1.html
 
-http://bop.webpatch.sdg-china.com/channel_share.lua (2018.12.15)
+[http://bop.webpatch.sdg-china.com/channel_share.lua](http://res.fsj.mqgamer.com/channel_share.lua) (2018.12.15)
