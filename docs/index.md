@@ -11,7 +11,7 @@ comments: true
     <center> ⭐ [260813: Pslo4MC α#9已经发布！](https://modrinth.com/resourcepack/pslp4mc/changelog) ⭐ </center>
     <center> ⭐ [戊边漫划 Cydonia "Calmira Arbor" Pre#4 已经发布！](https://www.bilibili.com/opus/1243649961486188560) ⭐ </center>
 
-![welcome](assets/docres/about/welcome-260507.webp)
+![welcome](assets/docres/games/rp/seaborngamma-bg-261120.webp)
 
 !!! warning "Work in Progress"
     20260507 这个站点功能还没有完全部署好嘛！！！！
@@ -27,6 +27,7 @@ comments: true
 ???+ 哎舞萌痴 "站点变动"
     记录本站本身的变动。
 
+    - 20261120 主页封面替换，反映近况
     - 20260930 粉刷匠及 Minecraft 相关研究 & 杼榅材质相关文章同步 
     - 20260510 增加博客页、RSS 与评论功能
     - 20260502 榅枋：确定建站方案，迁移至 MkDocs。  
